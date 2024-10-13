@@ -5,6 +5,7 @@ Bash script to remove primary key restrictions on DigitalOcean managed SQL datab
 ## Script
 
 ```bash
+# replace DIGITAL_OCEAN_TOKEN and DATABASE_ID
 curl -X PATCH \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer <DIGITAL_OCEAN_TOKEN>" \
